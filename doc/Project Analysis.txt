@@ -1,0 +1,39 @@
+PROJECT ANALYSYS:
+
+CARATTERISTICHE CHE OGNI ATTORE DEVE AVERE ALL'INTERNO DEL SISTEMA:
+
+1. LOGICAL CALCULAE: 
+The logical constants FOR-ALL, THERE-EXISTS, AND, OR, NOT, and IMPLIES are defined as actors.
+E' necessario usare/considerare in qualche maniera queste costanti logiche e' definirle come attori o come comportamento specifico degli attori?
+In ogni caso possono essere prese come spunto per eventulai comportamenti specifico di tutti gli attori.
+
+ - FOR-ALL
+ - THERE-EXISTS
+ - AND
+ - OR
+ - NOT
+ - IMPLIES
+ 
+2. - KNOWLEDGE BASED PROGRAMMING:
+The actor formalism aids knowledge based programming in the following ways
+
+- PROCEDURAL EMBEDDING of KNOWLEDGE (da considerarsi come comportamento e/o conoscenza interna dell'Attore?) 
+- TRACING BEHAVIORAL DEPENDENCIES and SUBSTANTIATING(trace del comportamento di convalida delle dipendenze ?) 
+
+that ACTORS SATISFY their INTENTIONS.
+
+3. - INTENTIONS:
+Every actor has an INTENTION which checks that the prerequisites and the context of the actor being sent the message are satisfied. 
+The intention is the CONTRACT that the actor has with the outside world. How an actor fulfills its contract is its own business.
+
+4. - Hierarchies:
+The model provides for the following orthogonal hierarchies:
+-	SCHEDULING: Every actor has a scheduler which determines when the actor actually acts after it 1s sent a message. 
+				The scheduler handles problems of synchronization. 
+				Another job of the scheduler [Rulifson] is to try to cause actors to act in an order such that their intentions will be satisfied.
+-	INTENTIONS: Every actor has an intention which makes certain that the prerequisites and context of the actor being sent the message are satisfied.
+				Intentions provide a certain amount of redundancy in the specifications of what is supposed to happen.
+-	MONITORING: Every actor can have monitors which look over each message sent to the actor.
+-	BINDING: Every actor can have a procedure for looking up the values of names that occur within 1t.
+-	RESOURCE MANAGEMENT: Every actor has a banker which monitors the use of space and time.
+

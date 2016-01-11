@@ -1,0 +1,26 @@
+Combined Time and Event-Driven Dynamic Systems (CTEDDS)
+Dynamic Event-Driven System (DEDS)
+Dynamic Time and Event-Driven System (DTEDS)
+
+
+Time and Event-Driven Dynamic System (TEDS)
+Time and Event-Driven Dynamic System 
+
+Time and Event-Driven System (Teds)
+
+Name used for the project is Evolve
+
+Guidelines:
+- Know the requirements :
+	Before you set out to design or implement an API, you should have a good idea of the requirements. Sometimes, the requirements are reasonably clear, 
+	but in most cases you will need to conduct some sort of requirements analysis. A good starting point is to ask as many people as possible (notably your boss, 
+	your colleagues, and potential users) about what features they would like to see.
+
+- Write use cases before you write any other code :
+	A common mistake when writing library components is to start by implementing the functionality, then design the API, and finally release it.
+	APIs designed this way tend to reflect the structure of the underlying code, rather than what the application programmer who will use the API wants to write. 
+	The implementation should adapt to the user, not the other way around.
+	Before you code an implementation or even design an API, start by writing a few typical application code snippets based on your requirement list. 
+	Don’t worry at this stage about difficulties that would arise in implementing the API. As you write the code snippets, the API takes shape. 
+	The snippets should reflect the Perl motto “Make easy things easy and hard things possible”.
+
